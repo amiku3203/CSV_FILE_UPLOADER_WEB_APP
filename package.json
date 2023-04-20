@@ -1,0 +1,37 @@
+{
+  "name": "csvfileuploader",
+  "version": "1.0.0",
+  "description": "Node JS, Express, Mongodb, Ejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "A",
+    "CSV",
+    "file",
+    "uploader",
+    "and",
+    "open",
+    "in",
+    "various",
+    "order"
+  ],
+  "author": "Ninja Amit",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^5.0.0",
+    "cookie-parser": "^1.4.6",
+    "csv": "^6.2.10",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.0.3",
+    "multer": "^1.4.5-lts.1"
+  }
+}

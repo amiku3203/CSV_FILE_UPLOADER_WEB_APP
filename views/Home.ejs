@@ -1,0 +1,44 @@
+ <link rel="stylesheet" type="text/css" href="/css/home.css">
+ <div id="indicator">
+    <div>
+          <h1 id="drop">Drop Your File here..</h1>
+    </div>
+   <div>
+    <img id="im" src="\images\arrow-down.png"> 
+   </div>
+    
+ </div>  
+ 
+
+ <form  id="CSVBOX" method="post" enctype="multipart/form-data" action="/upload"  >
+    <input id="file" type="file" name="csvFile" accept=".csv"  required>
+    <input id="set "  type="submit"   value="Add file">
+</form>
+ 
+  
+ <div id="showAllFiles">
+
+ <ol type="1" >
+     <% for( csvfiles of csvfiles){ %>
+     <li> <%=   csvfiles.originalName  %></li>
+     <div id="deandsh">
+      <a href="/show/?csvfiles_id=<%=csvfiles._id %>&page=1">
+
+      <button type="sub
+       ">Show details</button>
+
+       </a>
+ 
+         <a href="/delete/<%=csvfiles.file %>"> 
+            <button type="sub
+       ">Delete</button>
+       </a>
+       
+     <% } %>
+     </div> 
+   
+     </ol>
+
+ </div>
+ 
+ 

@@ -1,0 +1,49 @@
+<link rel="stylesheet" type="text/css" href="/css/file.css">
+<div id="filePage">
+   
+     
+    <div class="container">
+
+
+        <table id="sortTable">
+            <thead>
+                <tr>
+
+                    <%for(let i=0; i<head.length; i++){%>
+                        <th>
+                            <div class="headRowHeading">
+                                <%= head[i]%>
+                                    <i class="fa-solid "></i>
+                            </div>
+                        </th>
+
+                        <%}%>
+                </tr>
+            </thead>
+            <tbody>
+
+                <% for(let i=0; i<data.length; i++){ %>
+                    <tr>
+
+                        <% for(let j=0; j<head.length; j++){ %>
+                            <td id="cdata">
+                                <%= data[i][head[j]] %>
+                            </td>
+
+                            <% } %>
+                    </tr>
+                    <% } %>
+
+
+
+            </tbody>
+
+        </table>
+
+
+
+    </div>
+
+     
+
+<!-- <script src="/js/file"></script> -->

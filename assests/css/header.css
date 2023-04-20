@@ -1,0 +1,19 @@
+header div{
+    border: 5px solid whitesmoke;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 15px;
+} 
+#titleup{
+    color:black;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style:unset;
+    font-weight: 600;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-shadow: 2px 2px 4px #000000;
+      font-size:50px;
+}
