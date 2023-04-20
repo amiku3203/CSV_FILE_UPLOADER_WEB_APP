@@ -16,5 +16,6 @@
                 
                 this is my preview of project 
              
-             ![csvuploder](https://user-images.githubusercontent.com/121296949/233460223-6ef369c1-84b9-41a7-855c-da7555768eaa.png)
+              
+![csvuploder](https://user-images.githubusercontent.com/121296949/233460419-dd2f18a3-8615-4806-8efa-80a7ab673aec.png)
 
